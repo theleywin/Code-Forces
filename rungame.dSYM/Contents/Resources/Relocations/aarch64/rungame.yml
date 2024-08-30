@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     rungame
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000204C, symSize: 0x2E0 }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _finish, symObjAddr: 0x33C3, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x5B, size: 0x8, addend: 0x0, symName: _player, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0xCC, offset: 0xCC, size: 0x8, addend: 0x0, symName: _input, symBinAddr: 0x100008004, symSize: 0x0 }
+  - { offsetInCU: 0xE1, offset: 0xE1, size: 0x8, addend: 0x0, symName: _playerMutex, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offsetInCU: 0x14A, offset: 0x14A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000204C, symSize: 0x2E0 }
+  - { offsetInCU: 0x180, offset: 0x180, size: 0x8, addend: 0x0, symName: _Print_ship, symObjAddr: 0x2E0, symBinAddr: 0x10000232C, symSize: 0x1A3C }
+  - { offsetInCU: 0x1DC, offset: 0x1DC, size: 0x8, addend: 0x0, symName: _Init_ship_params, symObjAddr: 0x1D1C, symBinAddr: 0x100003D68, symSize: 0xA4 }
+  - { offsetInCU: 0x1F1, offset: 0x1F1, size: 0x8, addend: 0x0, symName: _Draw_game, symObjAddr: 0x1DC0, symBinAddr: 0x100003E0C, symSize: 0x44 }
+  - { offsetInCU: 0x20A, offset: 0x20A, size: 0x8, addend: 0x0, symName: _Player_input, symObjAddr: 0x1E04, symBinAddr: 0x100003E50, symSize: 0x50 }
+...
