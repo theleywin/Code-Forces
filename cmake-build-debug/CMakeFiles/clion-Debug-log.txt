@@ -1,13 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/pablogomezvidal/Desktop/Codes/projects/Space-Invader-UH -B /Users/pablogomezvidal/Desktop/Codes/projects/Space-Invader-UH/cmake-build-debug
-CMake Deprecation Warning:
-  Support for "Extra Generators" like
-
-    CodeBlocks
-
-  is deprecated and will be removed from a future version of CMake.  IDEs may
-  use the cmake-file-api(7) to view CMake-generated project build trees.
-
-
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/pablogomezvidal/Desktop/Codes/projects/Code-Forces -B /Users/pablogomezvidal/Desktop/Codes/projects/Code-Forces/cmake-build-debug
 CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
   CMake 3.28 or higher is required.  You are running version 3.27.8
 

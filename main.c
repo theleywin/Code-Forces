@@ -805,7 +805,7 @@ void * Enemy_generator() {
             Create_enemys(4, 1);
             dequeue();
         }
-        if(score >= 50 && see_front()==2){
+        if(score >= 50 && see_front()==3){
             Create_enemys(3, 3);
             dequeue();
         }
