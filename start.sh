@@ -28,7 +28,7 @@ while [ 1 == 1 ]; do
   echo " "
   echo " "
   echo "[s] -> Start the adventure"
-  echo "[e] -> Exit (just for loosers)"
+  echo "[e] -> Exit (just for losers)"
   echo " "
   echo -n "> "
   read input
